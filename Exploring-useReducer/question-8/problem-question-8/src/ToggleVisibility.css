@@ -1,0 +1,43 @@
+
+.toggle-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.toggle-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #0066ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #004ecc;
+}
+
+.message-wrapper {
+  margin-top: 20px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.message-wrapper.hidden {
+  opacity: 0;
+  transform: scale(0.95);
+  pointer-events: none;
+}
+
+.message-wrapper.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.message-text {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
